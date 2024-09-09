@@ -469,3 +469,47 @@ $align-items: normal, stretch, center, start, end, flex-start, flex-end;
 .rz-ripple {
   @include rz-ripple($pseudo: true);
 }
+
+// Overflow
+.rz-overflow {
+  overflow: visible;
+}
+.rz-overflow-visible {
+  overflow: visible;
+}
+.rz-overflow-hidden {
+  overflow: hidden;
+}
+.rz-overflow-scroll {
+  overflow: scroll;
+}
+.rz-overflow-auto {
+  overflow: auto;
+}
+.rz-overflow-wrap {
+  overflow: wrap;
+}
+.rz-overflow-x-visible {
+  overflow: visible;
+}
+.rz-overflow-x-hidden {
+  overflow: hidden;
+}
+.rz-overflow-x-scroll {
+  overflow: scroll;
+}
+.rz-overflow-x-auto {
+  overflow: auto;
+}
+.rz-overflow-y-visible {
+  overflow: visible;
+}
+.rz-overflow-y-hidden {
+  overflow: hidden;
+}
+.rz-overflow-y-scroll {
+  overflow: scroll;
+}
+.rz-overflow-y-auto {
+  overflow: auto;
+}
